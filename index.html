@@ -1,0 +1,912 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="asset/img/img-logooo.jpg">
+    <link rel="stylesheet" href="asset/css/style.css">
+    <link rel="stylesheet" href="asset/css/basic.css">
+    <link rel="stylesheet" href="asset/font/fontawesome-free-6.1.1-web/fontawesome-free-6.1.1-web/css/all.css">
+    <title>Book shop</title>
+</head>
+<body>
+    <div class="main">
+        <!-- Header -->
+        <header class="site-header">
+            <div class="bs-header">
+                <!-- login/register, contact,  -->
+                <div class="bs-header__top">
+
+                    <div class="bs-header__top-left">
+                        <ul class="bs-header__top-left-list">
+                            <li class="bs-header__top-left-item bs-header__top-left-item--separate">
+                                Tải ứng dụng
+                                <span class="bs-header__top-left--link">
+                                    <a href="#" class="bs-header__top-left--link-item">
+                                        <img src="asset/img/appleStore.png" alt="App Store">
+                                    </a>
+                                    <a href="#" class="bs-header__top-left--link-item">
+                                        <img src="asset/img/googlePlay.png" alt="Google Play">
+                                    </a>
+                                    <a href="#" class="bs-header__top-left--link-item">
+                                        <img src="asset/img/huaweiPlay.png" alt="Huawei Play">
+                                    </a>
+                                </span>
+                            </li>
+                            <li class="bs-header__top-left-item">
+                                Kết nối
+                            </li>
+                            <li class="bs-header__top-left-item">
+                                <a href="https://www.facebook.com/rubikk179/" class="bs-header__top-left--link-item">
+                                    <i class="fa-brands fa-facebook icon-link-fb"></i>
+                                </a>
+                            </li>
+                            <li class="bs-header__top-left-item">
+                                <a href="" class="bs-header__top-left--link-item">
+                                    <i class="fa-brands fa-instagram-square icon-link-ins"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="bs-header__top-right">
+                        <ul class="bs-header__top-right-list">
+                            <li class="bs-header__top-right-item">
+                                <i class="fa-regular fa-bell"></i>
+                                Thông báo
+                                <ul class="bs-header__top-right-noti">
+                                    <li class="bs-header__top-right-noti-item">
+                                        <a href="">Chào mừng bạn đến với trang web của tôi <3.</a>
+                                    </li>
+                                    <li class="bs-header__top-right-noti-item">
+                                        <a href="#">Chúc bạn một ngày tốt lành.</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="bs-header__top-right-item">
+                                <a href="" class="hs-header__top-right--link">
+                                    <i class="fa-regular fa-circle-question"></i>
+                                    Hỗ trợ
+                                </a>
+                            </li>
+                            <li class="bs-header__top-right-item">
+                                <i class="fa-solid fa-globe"></i>
+                                <select name="" id="" class="bs-header__top-right-languages">
+                                    <option value="" class="bs-header__top-right-language-item option-list">Tiếng Việt</option>
+                                    <option value="" class="bs-header__top-right-language-item option-list">English</option>
+                                </select>
+                            </li>
+                            <li class="bs-header__top-right-item bs-header__top-right-user-name">
+                                <i class="fa-regular fa-circle-user"></i>
+                                    Bùi Mạnh Hùng
+                                <ul class="bs-header__top-right-user--info">
+                                    <li class="bs-header__top-right-user--info-item">
+                                        <a href="#">Tài khoản của tôi</a>
+                                    </li>
+                                    <li class="bs-header__top-right-user--info-item">
+                                        <a href="#">Đơn mua</a>
+                                    </li>
+                                    <li class="bs-header__top-right-user--info-item">
+                                        <a href="#">Đăng xuất</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Logo,search, Cart -->
+                <div class="bs-header__middle">
+                    <a href="#" class="bs-header__middle--logo-link">
+                        <img src="asset/img/logo.png" alt="" class="bs-header__middle--logo">
+                    </a>
+                    <div class="bs-header__middle--search">
+                        <form action="" class="bs-header__middle--search-form">
+                            <input type="text" placeholder="Nhập quyển sách cần tìm..." class="bs-header__middle--search-form-input bs-header__middele--search-item">
+                            <select name="Thể loại" class="bs-header__middle--search-form-select">
+                                <option value="" class="option-list">Tất cả</option>
+                                <option value="" class="option-list">Văn học</option>
+                                <option value="" class="option-list">Self-help</option>
+                                <option value="" class="option-list">Tiểu thuyết</option>
+                                <option value="" class="option-list">Kinh tế</option>
+                                <option value="" class="option-list">Chính trị</option>
+                            </select>
+                            <span class="bs-header__middle--search-icon bs-header__middle--search-item">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </span>
+                        </form>
+                        <a href="#" class="bs-header__middle-cart-wrap">
+                            <span class="bs-header__middle--search-cart bs-header__middle--search-item">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </span>
+                            <span class="bs-header__middle--search-cart-num">2</span>
+                        </a>
+                    </div>
+                </div>
+                <!-- Menu header -->
+                <div class="bs-header__bottom">
+                    <div class="bs-header__bottom-heading">
+                        <ul class="bs-header__bottom-heading--list">
+                            <li class="bs-header__bottom-heading-item bs-header__bottom-heading-item-home">
+                                Home
+                                <i class="bs-header__bottom-heading-item-icon fa-solid fa-chevron-down"></i>
+                                <ul class="bs-header__buttom-heading-sublist bs-header__bottom-home-list">
+                                    <li class="bs-header__bottom-home-item bs-header__bottom-item">
+                                        <a href="#" class="bs-header__bottom-item-link">Home 1</a>
+                                    </li>
+                                    <li class="bs-header__bottom-home-item bs-header__bottom-item">
+                                        <a href="#" class="bs-header__bottom-item-link">Home 2</a>
+                                    </li>
+                                    <li class="bs-header__bottom-home-item bs-header__bottom-item">
+                                        <a href="#" class="bs-header__bottom-item-link">Home 3</a>
+                                    </li>
+                                    <li class="bs-header__bottom-home-item bs-header__bottom-item">
+                                        <a href="#" class="bs-header__bottom-item-link">Home 4</a>
+                                    </li>
+                                    <li class="bs-header__bottom-home-item bs-header__bottom-item">
+                                        <a href="#" class="bs-header__bottom-item-link">Home 5</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="bs-header__bottom-heading-item bs-header__bottom-heading-item-mega">
+                                Mega Menu
+                                <i class="bs-header__bottom-heading-item-icon fa-solid fa-chevron-down"></i>
+                            </li>
+                            <li class="bs-header__bottom-heading-item bs-header__bottom-heading-item-shop">
+                                Shop
+                                <i class="bs-header__bottom-heading-item-icon fa-solid fa-chevron-down"></i>
+                                <ul class="bs-header__buttom-heading-sublist bs-header__bottom-shop-list">
+                                    <li class="bs-header__bottom-shop-item bs-header__bottom-item">
+                                        <a href="#" class="bs-header__bottom-item-link">Shop Cart</a>
+                                    </li>
+                                    <li class="bs-header__bottom-shop-item bs-header__bottom-item">
+                                        <a href="#" class="bs-header__bottom-item-link">Shop Checkout</a>
+                                    </li>
+                                    <li class="bs-header__bottom-shop-item bs-header__bottom-item">
+                                        <a href="#" class="bs-header__bottom-item-link">Single Book</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="bs-header__bottom-heading-item bs-header__bottom-heading-item-shortcode">
+                                Shortcodes
+                                <i class="bs-header__bottom-heading-item-icon fa-solid fa-chevron-down"></i>
+                                <ul class="bs-header__buttom-heading-sublist bs-header__bototm-shortcode-list">
+                                    <li class="bs-header__bottom-shortcode-item bs-header__bottom-item">
+                                        <a href="#" class="bs-header__bottom-item-link">Buttons</a>
+                                    </li>
+                                    <li class="bs-header__bottom-shortcode-item bs-header__bottom-item">
+                                        <a href="#" class="bs-header__bottom-item-link">Book Displays</a>                             
+                                    </li>
+                                    <li class="bs-header__bottom-shortcode-item bs-header__bottom-item">
+                                        <a href="#" class="bs-header__bottom-item-link">Team</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="bs-header__bottom-heading-item bs-header__bottom-heading-item-news">
+                                News
+                                <i class="bs-header__bottom-heading-item-icon fa-solid fa-chevron-down"></i>
+                                <ul class="bs-header__buttom-heading-sublist bs-header__bottom-news-list">
+                                    <li class="bs-header__buttom-news-item bs-header__bottom-item">
+                                        <a href="#" class="bs-header__bottom-item-link">News Grid</a>
+                                    </li>
+                                    <li class="bs-header__buttom-news-item bs-header__bottom-item">
+                                        <a href="#" class="bs-header__bottom-item-link">News Review</a>
+                                    </li>
+                                    <li class="bs-header__buttom-news-item bs-header__bottom-item">
+                                        <a href="#" class="bs-header__bottom-item-link">News Fullwidth</a>
+                                    </li>
+                                    <li class="bs-header__buttom-news-item bs-header__bottom-item">
+                                        <a href="#" class="bs-header__bottom-item-link">News Right Sidebar</a>
+                                    </li>
+                                    <li class="bs-header__buttom-news-item bs-header__bottom-item">
+                                        <a href="#" class="bs-header__bottom-item-link">News Left Sidebar</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>     
+                </div>
+            </div>
+        </header>
+        <!-- Week books -->
+        <div class="week-book">
+            <p class="week-book--heading">Những quyển sách hay nhất tuần</p>
+            <div class="week-book-list">
+                <div class="week-book-item week-book-item-1">
+                    <div class="week-book-item--info">
+                        <div class="week-book-item--info__heading">
+                            <a href="#" class="week-book-item--info-name">Không gia đình</a>
+                            <div class="week-book-item--info-img-content">
+                                <div class="week-book-item--info-main">
+                                    <a href="#" class="week-book-item-info-name-author-link">
+                                        <p class="week-book-item-info-name-author">By: Hetor Malot</p>
+                                    </a>
+                                    <div class="week-book-item--info-rating">
+                                        <span class="week-book-item--info-rating-icon">
+                                            <i class="week-book-item--info-rating-icon-star fas fa-star"></i>
+                                            <i class="week-book-item--info-rating-icon-star fas fa-star"></i>
+                                            <i class="week-book-item--info-rating-icon-star fas fa-star"></i>
+                                            <i class="week-book-item--info-rating-icon-star fas fa-star"></i>
+                                            <i class="week-book-item--info-rating-icon-star fas fa-star"></i>
+                                        </span>
+                                        <span class="week-book-item--info-rating-num">5 Ratings</span>
+                                    </div>
+                                    <div class="week-book-item--info-content">
+                                        Không gia đình kể chuyện một cậu bé tên là Rémi bị bỏ rơi từ nhỏ rồi bị bỏ lại ở 1 góc đường,cậu được 1 gia đình khác nhận nuôi. Rémi được chăm sóc trong vòng tay yêu thương của má Barberin.
+                                    </div>
+                                    <a href="#" class="week-book-item--info-view">
+                                        Xem trong cửa hàng
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </a>
+                                </div>
+                                <img src="asset/img/img-khong-gia-dinh.png" alt="Không gia đình" class="week-book-item--info-img">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="week-book-item week-book-item-2">
+                    <div class="week-book-item--info">
+                        <div class="week-book-item--info__heading">
+                            <a href="#" class="week-book-item--info-name">Đắc Nhân Tâm</a>
+                            <div class="week-book-item--info-img-content">
+                                <div class="week-book-item--info-main">
+                                    <a href="#" class="week-book-item-info-name-author-link">
+                                        <p class="week-book-item-info-name-author">By: Dale Carnegie</p>
+                                    </a>
+                                    <div class="week-book-item--info-rating">
+                                        <span class="week-book-item--info-rating-icon">
+                                            <i class="week-book-item--info-rating-icon-star fas fa-star"></i>
+                                            <i class="week-book-item--info-rating-icon-star fas fa-star"></i>
+                                            <i class="week-book-item--info-rating-icon-star fas fa-star"></i>
+                                            <i class="week-book-item--info-rating-icon-star fas fa-star"></i>
+                                            <i class="week-book-item--info-rating-icon-star fas fa-star"></i>
+                                        </span>
+                                        <span class="week-book-item--info-rating-num">5 Ratings</span>
+                                    </div>
+                                    <div class="week-book-item--info-content">
+                                        Nó không còn là nghệ thuật thu phục lòng người và làm cho tất cả mọi người xung quanh yêu mến mình.Ở đây sẽ có ý nghĩa đó cần được thụ đắc bằng sự hiểu rõ bản thân, thành thật với chính mình.                                    </div>
+                                    <a href="#" class="week-book-item--info-view">
+                                        Xem trong cửa hàng
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </a>
+                                </div>
+                                <img src="asset/img/dac-nhan-tam.jpg" alt="Đắc nhân tâm" class="week-book-item--info-img">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="week-book-item week-book-item-3">
+                    <div class="week-book-item--info">
+                        <div class="week-book-item--info__heading">
+                            <a href="#" class="week-book-item--info-name">Hai số phận</a>
+                            <div class="week-book-item--info-img-content">
+                                <div class="week-book-item--info-main">
+                                    <a href="#" class="week-book-item-info-name-author-link">
+                                        <p class="week-book-item-info-name-author">By: Jeffrey Archer</p>
+                                    </a>
+                                    <div class="week-book-item--info-rating">
+                                        <span class="week-book-item--info-rating-icon">
+                                            <i class="week-book-item--info-rating-icon-star fas fa-star"></i>
+                                            <i class="week-book-item--info-rating-icon-star fas fa-star"></i>
+                                            <i class="week-book-item--info-rating-icon-star fas fa-star"></i>
+                                            <i class="week-book-item--info-rating-icon-star fas fa-star"></i>
+                                            <i class="week-book-item--info-rating-icon-star fas fa-star"></i>
+                                        </span>
+                                        <span class="week-book-item--info-rating-num">5 Ratings</span>
+                                    </div>
+                                    <div class="week-book-item--info-content">
+                                        Nội dung tác phẩm nói về hai số phận của hai người đàn ông khác nhau có tên Kane & Abel, họ có lẽ sẽ có gì liên quan đến nhau. Tất nhiên, hai số phận của họ lại rẽ theo hai hướng hoàn toàn khác biệt nhau. 
+                                    </div>
+                                    <a href="#" class="week-book-item--info-view">
+                                        Xem trong cửa hàng
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </a>
+                                </div>
+                                <img src="asset/img/hai-so-phan.webp" alt="Không gia đình" class="week-book-item--info-img">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Container -->
+        <div class="bs-container">
+            <div class="grid ">
+                <div class="row">
+                    <div class="col l-2">
+                        <div class="bs-container__sidebar">
+                            <div class="bs-container__sidebar-categories">
+                                <h3 class="bs-container__sidebar-catgories--heading">Danh mục</h3>
+                                <ul class="bs-container__sidebar-categories-list">
+                                    <a href="#" class="" style="text-decoration: none;">
+                                        <li class="bs-container__sidebar-categories-item">Sách tư duy-Kỹ năng sống</li>
+                                    </a>
+                                    <a href="#" class="" style="text-decoration: none;">
+                                        <li class="bs-container__sidebar-categories-item">Tiểu thuyết</li>
+                                    </a>
+                                    <a href="#" class="" style="text-decoration: none;">
+                                        <li class="bs-container__sidebar-categories-item">Kiến thức-Bách khoa</li>
+                                    </a>
+                                    <a href="#" class="" style="text-decoration: none;">
+                                        <li class="bs-container__sidebar-categories-item">Truyện ngắn-Tản văn-Tạp văn</li>
+                                    </a>
+                                    <a href="#" class="" style="text-decoration: none;">
+                                        <li class="bs-container__sidebar-categories-item">Sách học Tiếng Anh</li>
+                                    </a>
+                                </ul>
+                            </div>
+                            <div class="bs-container__sidebar-authors">
+                                <h3 class="bs-container__sidebar-authors--heading">Tác giả</h3>
+                                <ul class="bs-container__sidebar-authors-list">
+                                    <a href="#" class="" style="text-decoration: none;">
+                                        <li class="bs-container__sidebar-authors-item">Nhiều tác giả</li>
+                                    </a>
+                                    <a href="#" class="" style="text-decoration: none;">
+                                        <li class="bs-container__sidebar-authors-item">Nguyễn Nhật Ánh</li>
+                                    </a>
+                                    <a href="#" class="" style="text-decoration: none;">
+                                        <li class="bs-container__sidebar-authors-item">Diệu Hồ</li>
+                                    </a>
+                                    <a href="#" class="" style="text-decoration: none;">
+                                        <li class="bs-container__sidebar-authors-item">Hector Maclot</li>
+                                    </a>
+                                    <a href="#" class="" style="text-decoration: none;">
+                                        <li class="bs-container__sidebar-authors-item">Nguyễn Hiến Lê</li>
+                                    </a>
+                                    <a href="#" class="" style="text-decoration: none;">
+                                        <li class="bs-container__sidebar-authors-item">Thích Nhất Hạnh</li>
+                                    </a>
+                                    <a href="#" class="" style="text-decoration: none;">
+                                        <li class="bs-container__sidebar-authors-item">Fujiko F Fujio</li>
+                                    </a>
+                                    <a href="#" class="" style="text-decoration: none;">
+                                        <li class="bs-container__sidebar-authors-item">Bộ giáo dục và đào tạo</li>
+                                    </a>
+                                </ul>
+                            </div>
+                            <div class="bs-container__sidebar-companys">
+                                <h3 class="bs-container__sidebar-companys--heading">Nhà cung cấp</h3>
+                                <ul class="bs-container__sidebar-companys-list">
+                                    <a href="#" class="" style="text-decoration: none;">
+                                        <li class="bs-container__sidebar-companys-item">Nhà sách Fahasa</li>
+                                    </a>
+                                    <a href="#" class="" style="text-decoration: none;">
+                                        <li class="bs-container__sidebar-companys-item">Tiki Trading</li>
+                                    </a>
+                                    <a href="#" class="" style="text-decoration: none;">
+                                        <li class="bs-container__sidebar-companys-item">Times Books</li>
+                                    </a>
+                                    <a href="#" class="" style="text-decoration: none;">
+                                        <li class="bs-container__sidebar-companys-item">Tân Việt</li>
+                                    </a>
+                                    <a href="#" class="" style="text-decoration: none;">
+                                        <li class="bs-container__sidebar-companys-item">Nhà sách trẻ</li>
+                                    </a>
+                                    <a href="#" class="" style="text-decoration: none;">
+                                        <li class="bs-container__sidebar-companys-item">SÁCH NGHÉ</li>
+                                    </a>
+                                    <a href="#" class="" style="text-decoration: none;">
+                                        <li class="bs-container__sidebar-companys-item">Sách Và Cuộc Sống</li>
+                                    </a>
+                                    <a href="#" class="" style="text-decoration: none;">
+                                        <li class="bs-container__sidebar-companys-item">HiHi books</li>
+                                    </a>
+                                    <a href="#" class="" style="text-decoration: none;">
+                                        <li class="bs-container__sidebar-companys-item">S2 shop</li>
+                                    </a>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Products -->
+                    <div class="col l-10">
+                        <div class="bs-container-filter">
+                            <span class="bs-container-filter__label">Sắp xếp theo</span>
+                            <a href="" class="bs-container-filter__item bs-container-filter__item--hover">Phổ biến</a>
+                            <a href="" class="bs-container-filter__item">Bán chạy</a>
+                            <a href="" class="bs-container-filter__item">Hàng mới</a>
+                            <select name="Giá" id="" class="bs-container-filter__item-price" >
+                                <option value="" class="bs-container-filter__item-price-option option-list">Giá</option>
+                                <option value="" class="bs-container-filter__item-price-option option-list">0đ-50.000đ</option>
+                                <option value="" class="bs-container-filter__item-price-option option-list">50.000đ-100.000đ</option>
+                                <option value="" class="bs-container-filter__item-price-option option-list">100.000đ-500.000đ</option>
+                            </select>
+                        </div>
+
+                        <div class="bs-container-home-product">
+                            <div class="row">
+                                <div class="col l-2-4">
+                                    <a href="#" class="bs-container-home-product__item">
+                                        <img src="asset/img/mot cuon sach ve chu nghia toi gian.webp" alt="" class="bs-container-home-product__item-img">
+                                        <h4 class="bs-container-home-product__item-name">Một cuốn sách về chủ nghĩa tối giản</h4>
+                                        <div class="bs-container-home-product__item-price">
+                                            <div class="bs-container-home-product__item-price-discount">57.600đ</div>
+                                            <div class="bs-container-home-product__item-price-discount-icon">-40%</div>
+                                        </div>
+                                        <div class="bs-container-home-product__item-action">
+                                            <span class="bs-container-home-product__item-liked">
+                                                <i class="fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="bs-container-home-product__item-rating">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="bs-container-home-product__item-sold">
+                                                88 đã bán
+                                            </span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4">
+                                    <a href="#" class="bs-container-home-product__item">
+                                        <img src="asset/img/mot cuon sach ve chu nghia toi gian.webp" alt="" class="bs-container-home-product__item-img">
+                                        <h4 class="bs-container-home-product__item-name">Một cuốn sách về chủ nghĩa tối giản</h4>
+                                        <div class="bs-container-home-product__item-price">
+                                            <div class="bs-container-home-product__item-price-discount">57.600đ</div>
+                                            <div class="bs-container-home-product__item-price-discount-icon">-40%</div>
+                                        </div>
+                                        <div class="bs-container-home-product__item-action">
+                                            <span class="bs-container-home-product__item-liked">
+                                                <i class="fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="bs-container-home-product__item-rating">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="bs-container-home-product__item-sold">
+                                                88 đã bán
+                                            </span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4">
+                                    <a href="#" class="bs-container-home-product__item">
+                                        <img src="asset/img/mot cuon sach ve chu nghia toi gian.webp" alt="" class="bs-container-home-product__item-img">
+                                        <h4 class="bs-container-home-product__item-name">Một cuốn sách về chủ nghĩa tối giản</h4>
+                                        <div class="bs-container-home-product__item-price">
+                                            <div class="bs-container-home-product__item-price-discount">57.600đ</div>
+                                            <div class="bs-container-home-product__item-price-discount-icon">-40%</div>
+                                        </div>
+                                        <div class="bs-container-home-product__item-action">
+                                            <span class="bs-container-home-product__item-liked">
+                                                <i class="fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="bs-container-home-product__item-rating">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="bs-container-home-product__item-sold">
+                                                88 đã bán
+                                            </span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4">
+                                    <a href="#" class="bs-container-home-product__item">
+                                        <img src="asset/img/mot cuon sach ve chu nghia toi gian.webp" alt="" class="bs-container-home-product__item-img">
+                                        <h4 class="bs-container-home-product__item-name">Một cuốn sách về chủ nghĩa tối giản</h4>
+                                        <div class="bs-container-home-product__item-price">
+                                            <div class="bs-container-home-product__item-price-discount">57.600đ</div>
+                                            <div class="bs-container-home-product__item-price-discount-icon">-40%</div>
+                                        </div>
+                                        <div class="bs-container-home-product__item-action">
+                                            <span class="bs-container-home-product__item-liked">
+                                                <i class="fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="bs-container-home-product__item-rating">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="bs-container-home-product__item-sold">
+                                                88 đã bán
+                                            </span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4">
+                                    <a href="#" class="bs-container-home-product__item">
+                                        <img src="asset/img/mot cuon sach ve chu nghia toi gian.webp" alt="" class="bs-container-home-product__item-img">
+                                        <h4 class="bs-container-home-product__item-name">Một cuốn sách về chủ nghĩa tối giản</h4>
+                                        <div class="bs-container-home-product__item-price">
+                                            <div class="bs-container-home-product__item-price-discount">57.600đ</div>
+                                            <div class="bs-container-home-product__item-price-discount-icon">-40%</div>
+                                        </div>
+                                        <div class="bs-container-home-product__item-action">
+                                            <span class="bs-container-home-product__item-liked">
+                                                <i class="fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="bs-container-home-product__item-rating">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="bs-container-home-product__item-sold">
+                                                88 đã bán
+                                            </span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4">
+                                    <a href="#" class="bs-container-home-product__item">
+                                        <img src="asset/img/mot cuon sach ve chu nghia toi gian.webp" alt="" class="bs-container-home-product__item-img">
+                                        <h4 class="bs-container-home-product__item-name">Một cuốn sách về chủ nghĩa tối giản</h4>
+                                        <div class="bs-container-home-product__item-price">
+                                            <div class="bs-container-home-product__item-price-discount">57.600đ</div>
+                                            <div class="bs-container-home-product__item-price-discount-icon">-40%</div>
+                                        </div>
+                                        <div class="bs-container-home-product__item-action">
+                                            <span class="bs-container-home-product__item-liked">
+                                                <i class="fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="bs-container-home-product__item-rating">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="bs-container-home-product__item-sold">
+                                                88 đã bán
+                                            </span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4">
+                                    <a href="#" class="bs-container-home-product__item">
+                                        <img src="asset/img/mot cuon sach ve chu nghia toi gian.webp" alt="" class="bs-container-home-product__item-img">
+                                        <h4 class="bs-container-home-product__item-name">Một cuốn sách về chủ nghĩa tối giản</h4>
+                                        <div class="bs-container-home-product__item-price">
+                                            <div class="bs-container-home-product__item-price-discount">57.600đ</div>
+                                            <div class="bs-container-home-product__item-price-discount-icon">-40%</div>
+                                        </div>
+                                        <div class="bs-container-home-product__item-action">
+                                            <span class="bs-container-home-product__item-liked">
+                                                <i class="fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="bs-container-home-product__item-rating">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="bs-container-home-product__item-sold">
+                                                88 đã bán
+                                            </span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4">
+                                    <a href="#" class="bs-container-home-product__item">
+                                        <img src="asset/img/mot cuon sach ve chu nghia toi gian.webp" alt="" class="bs-container-home-product__item-img">
+                                        <h4 class="bs-container-home-product__item-name">Một cuốn sách về chủ nghĩa tối giản</h4>
+                                        <div class="bs-container-home-product__item-price">
+                                            <div class="bs-container-home-product__item-price-discount">57.600đ</div>
+                                            <div class="bs-container-home-product__item-price-discount-icon">-40%</div>
+                                        </div>
+                                        <div class="bs-container-home-product__item-action">
+                                            <span class="bs-container-home-product__item-liked">
+                                                <i class="fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="bs-container-home-product__item-rating">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="bs-container-home-product__item-sold">
+                                                88 đã bán
+                                            </span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4">
+                                    <a href="#" class="bs-container-home-product__item">
+                                        <img src="asset/img/mot cuon sach ve chu nghia toi gian.webp" alt="" class="bs-container-home-product__item-img">
+                                        <h4 class="bs-container-home-product__item-name">Một cuốn sách về chủ nghĩa tối giản</h4>
+                                        <div class="bs-container-home-product__item-price">
+                                            <div class="bs-container-home-product__item-price-discount">57.600đ</div>
+                                            <div class="bs-container-home-product__item-price-discount-icon">-40%</div>
+                                        </div>
+                                        <div class="bs-container-home-product__item-action">
+                                            <span class="bs-container-home-product__item-liked">
+                                                <i class="fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="bs-container-home-product__item-rating">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="bs-container-home-product__item-sold">
+                                                88 đã bán
+                                            </span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4">
+                                    <a href="#" class="bs-container-home-product__item">
+                                        <img src="asset/img/mot cuon sach ve chu nghia toi gian.webp" alt="" class="bs-container-home-product__item-img">
+                                        <h4 class="bs-container-home-product__item-name">Một cuốn sách về chủ nghĩa tối giản</h4>
+                                        <div class="bs-container-home-product__item-price">
+                                            <div class="bs-container-home-product__item-price-discount">57.600đ</div>
+                                            <div class="bs-container-home-product__item-price-discount-icon">-40%</div>
+                                        </div>
+                                        <div class="bs-container-home-product__item-action">
+                                            <span class="bs-container-home-product__item-liked">
+                                                <i class="fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="bs-container-home-product__item-rating">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="bs-container-home-product__item-sold">
+                                                88 đã bán
+                                            </span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4">
+                                    <a href="#" class="bs-container-home-product__item">
+                                        <img src="asset/img/mot cuon sach ve chu nghia toi gian.webp" alt="" class="bs-container-home-product__item-img">
+                                        <h4 class="bs-container-home-product__item-name">Một cuốn sách về chủ nghĩa tối giản</h4>
+                                        <div class="bs-container-home-product__item-price">
+                                            <div class="bs-container-home-product__item-price-discount">57.600đ</div>
+                                            <div class="bs-container-home-product__item-price-discount-icon">-40%</div>
+                                        </div>
+                                        <div class="bs-container-home-product__item-action">
+                                            <span class="bs-container-home-product__item-liked">
+                                                <i class="fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="bs-container-home-product__item-rating">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="bs-container-home-product__item-sold">
+                                                88 đã bán
+                                            </span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4">
+                                    <a href="#" class="bs-container-home-product__item">
+                                        <img src="asset/img/mot cuon sach ve chu nghia toi gian.webp" alt="" class="bs-container-home-product__item-img">
+                                        <h4 class="bs-container-home-product__item-name">Một cuốn sách về chủ nghĩa tối giản</h4>
+                                        <div class="bs-container-home-product__item-price">
+                                            <div class="bs-container-home-product__item-price-discount">57.600đ</div>
+                                            <div class="bs-container-home-product__item-price-discount-icon">-40%</div>
+                                        </div>
+                                        <div class="bs-container-home-product__item-action">
+                                            <span class="bs-container-home-product__item-liked">
+                                                <i class="fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="bs-container-home-product__item-rating">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="bs-container-home-product__item-sold">
+                                                88 đã bán
+                                            </span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4">
+                                    <a href="#" class="bs-container-home-product__item">
+                                        <img src="asset/img/mot cuon sach ve chu nghia toi gian.webp" alt="" class="bs-container-home-product__item-img">
+                                        <h4 class="bs-container-home-product__item-name">Một cuốn sách về chủ nghĩa tối giản</h4>
+                                        <div class="bs-container-home-product__item-price">
+                                            <div class="bs-container-home-product__item-price-discount">57.600đ</div>
+                                            <div class="bs-container-home-product__item-price-discount-icon">-40%</div>
+                                        </div>
+                                        <div class="bs-container-home-product__item-action">
+                                            <span class="bs-container-home-product__item-liked">
+                                                <i class="fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="bs-container-home-product__item-rating">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="bs-container-home-product__item-sold">
+                                                88 đã bán
+                                            </span>
+                                        </div>
+                                    </a>
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                        <ul class="bs-container-home__pagination">
+                            <li class="bs-container-home__pagination-item">
+                                <a href="" class="bs-container-home__pagination-item-link">
+                                    <i class="fa-solid fa-angle-left"></i>
+                                </a>
+                            </li>
+                            <li class="bs-container-home__pagination-item bs-container-home__pagination-item--action">
+                                <a href="" class="bs-container-home__pagination-item-link">1</a>
+                            </li>
+                            <li class="bs-container-home__pagination-item">
+                                <a href="" class="bs-container-home__pagination-item-link">2</a>
+                            </li>
+                            <li class="bs-container-home__pagination-item">
+                                <a href="" class="bs-container-home__pagination-item-link">3</a>
+                            </li>
+                            <li class="bs-container-home__pagination-item">
+                                <a href="" class="bs-container-home__pagination-item-link">4</a>
+                            </li>
+                            <li class="bs-container-home__pagination-item">
+                                <a href="" class="bs-container-home__pagination-item-link">5</a>
+                            </li>
+                            <li class="bs-container-home__pagination-item">
+                                <a href="" class="bs-container-home__pagination-item-link">...</a>
+                            </li>
+                            <li class="bs-container-home__pagination-item">
+                                <a href="" class="bs-container-home__pagination-item-link">12</a>
+                            </li>
+                            <li class="bs-container-home__pagination-item">
+                                <a href="" class="bs-container-home__pagination-item-link">
+                                    <i class="fa-solid fa-angle-right"></i>
+                                </a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Best seller books of month -->
+        <div class="bs-top-books-seller">
+            <div class="grid">
+                <div class="row">
+                    <div class="bs-top-books-seller__info col-1-5">
+                        <p class="bs-top-books-seller__info-title-1">Our</p>
+                        <p class="bs-top-books-seller__info-title-2">TOP 8</p>
+                        <p class="bs-top-books-seller__info-title-3">Most popular books</p>
+                        <a href="#" class="bs-top-books-seller__info-btn">View all</a>
+                    </div>  
+                    <div class="bs-top-books-seller__content col-4-5">
+                        <div class="bs-top-books-seller__content-info col-1-4">
+                            <div class="bs-top-books-seller__content-item bs-top-books-seller__content-item-1">
+                                <img src="asset/img/bash_and_lucy-2.jpg" alt="" class="content-item-img">
+                                <h4 class="content-item-name">Bash and Lucy Fetch Confidence</h4>
+                                <p class="content-item-author">by Lisa & Michael Cohn</p>
+                            </div>
+                        </div>
+                        <div class="bs-top-books-seller__content-info col-1-4">
+                            <div class="bs-top-books-seller__content-item bs-top-books-seller__content-item-1">
+                                <img src="asset/img/bash_and_lucy-2.jpg" alt="" class="content-item-img">
+                                <h4 class="content-item-name">Bash and Lucy Fetch Confidence</h4>
+                                <p class="content-item-author">by Lisa & Michael Cohn</p>
+                            </div>
+                        </div>
+                        <div class="bs-top-books-seller__content-info col-1-4">
+                            <div class="bs-top-books-seller__content-item bs-top-books-seller__content-item-1">
+                                <img src="asset/img/bash_and_lucy-2.jpg" alt="" class="content-item-img">
+                                <h4 class="content-item-name">Bash and Lucy Fetch Confidence</h4>
+                                <p class="content-item-author">by Lisa & Michael Cohn</p>
+                            </div>
+                        </div>
+                        <div class="bs-top-books-seller__content-info col-1-4">
+                            <div class="bs-top-books-seller__content-item bs-top-books-seller__content-item-1">
+                                <img src="asset/img/bash_and_lucy-2.jpg" alt="" class="content-item-img">
+                                <h4 class="content-item-name">Bash and Lucy Fetch Confidence</h4>
+                                <p class="content-item-author">by Lisa & Michael Cohn</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer -->
+        <div class="site-footer">
+            <div class="footer-top"></div>
+            <div class="footer-middle">
+                <div class="grid">
+                    <div class="row">
+                        <div class="footer-middle__left col-f-1-4">
+                            <img src="asset/img/footer-logo.png" alt="" class="footer-middle__left-img">
+                            <p class="footer-middle__left-infomation">Trang chuyên cung cấp những đầu sách hay,hot nhất hiện nay.</p>
+                            <div class="footer-middle__left-socials">
+                                <a href="https://www.facebook.com/rubikk179/" class="footer-middle__left-icon-link icon-link-fb">
+                                    <i class="fa-brands fa-facebook"></i>
+                                </a>
+                                <a href="#" class="footer-middle__left-icon-link icon-link-ins">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                                <a href="https://twitter.com/rubikk__" class="footer-middle__left-icon-link icon-link-twi">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="footer-middle__right col-f-3-4">
+                            <div class="footer-middle__right-item col-f-1-3">
+                                <h4 class="footer-middle__right-item-heading">RECENT POSTS</h4>
+                            </div>
+                            <div class="footer-middle__right-item col-f-1-3">
+                                <h4 class="footer-middle__right-item-heading">GENRES</h4>
+                                <div class="footer-middle__right-item2-content">
+                                    <p class="footer-middle__right-item2-content-item">Action</p>
+                                    <p class="footer-middle__right-item2-content-item">Comedy</p>
+                                    <p class="footer-middle__right-item2-content-item">Drama</p>
+                                    <p class="footer-middle__right-item2-content-item">E-books</p>
+                                    <p class="footer-middle__right-item2-content-item">Horror</p>
+                                    <p class="footer-middle__right-item2-content-item">Kids</p>
+                                    <p class="footer-middle__right-item2-content-item">Romantic Comedy</p>
+                                    <p class="footer-middle__right-item2-content-item">Sci-Fi</p>
+                                </div>
+                            </div>
+                            <div class="footer-middle__right-item col-f-1-3">
+                                <h4 class="footer-middle__right-item-heading">CONTACT</h4>
+                                <div class="footer-middle__right-item3-contact-address">
+                                    <p class="footer-middle__right-item3-contact-item">Viet Nam</p>
+                                </div>
+                                <div class="footer-middle__right-item3-contact-online">
+                                    <p class="footer-middle__right-item3-contact-item">Call: 090 *** ****   </p>
+                                    <p class="footer-middle__right-item3-contact-item">
+                                        Email:<a href="mailto:bmhung17903@gmail.com" style="text-decoration:none;color:rgb(35, 176, 241);font-size: 18px;">
+                                            <i class="fa-solid fa-envelope"></i>
+                                            Here</a>
+                                    </p>
+                                    <p class="footer-middle__right-item3-contact-item">
+                                        GitHub:
+                                        <a href="https://github.com/rubikk179" style="text-decoration:none;color:rgb(103, 12, 239);font-size: 18px;"><i class="fa-brands fa-github"></i></a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="footer-bottom__copyright">
+                    Copyright © 2022 
+                    <a href="#" class="">RubikkCPN</a>
+                    . All Right Reserved
+                </p>
+                <p class="footer-bottom__copyright">
+                    Made by rubikk179
+                </p>
+            </div>
+        </div>
+    </div>
+    <script>
+        alert("Hi!")
+        setTimeout(() => {
+    alert('Đừng rời đi nhé')
+    }, 10000);
+    </script>
+</body>
+</html>
