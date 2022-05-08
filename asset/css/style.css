@@ -270,7 +270,7 @@
     list-style: none;
     background-color: rgb(200 179 242);
     color: var(--text-color);
-    position: fixed;
+    position: absolute;
     margin-top: 31px;
     border-radius: 2px;
     box-shadow: 2px 3px 9px rgb(123 99 217);
