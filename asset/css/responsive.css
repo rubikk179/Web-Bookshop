@@ -1,0 +1,74 @@
+/* Mobile: width:  <740px */
+@media only screen and (max-width:1024px) {
+    
+}
+/* Table: width>=740px and width < 1024px */
+@media only screen and (min-width: 740px) and (max-width: 1024px) {
+.week-book-item.week-book-item-1 {
+    display:none;
+}
+.week-book-item {
+    width:45%;
+}
+.bs-header__bottom-heading--list {
+    padding: 30px 0px;
+}
+.bs-header__top {
+    padding: 15px 0 0px 0;
+}
+.bs-header__middle {
+    padding: 25px 14px 0px 10px;
+}
+.bs-header__middle--logo {
+    width:90%;
+    padding-top:7px;
+}
+.bs-header__middle--search {
+    margin-left:0;
+}
+.bs-container-filter {
+    font-size:10px;
+}
+.bs-container-filter__item-price {
+    padding: 6px 6px;
+}
+.l-2,.bs-container__sidebar-companys,.bs-container__sidebar-authors,.bs-container__sidebar-categories-list {
+    display:none;
+}
+
+.col {
+    
+}
+.l-10 {
+    flex: 0 0 100%;
+    max-width: 100%;
+} 
+.l-2-4 {
+    flex: 0 0 25%;
+    min-width: 25%;
+}
+.bs-container-filter {
+
+}
+.bs-top-books-seller__info {
+    /* margin-left:12px; */
+    margin-top:50px;
+}
+.bs-top-books-seller .row {
+    margin: 0px 20px;
+}
+.footer-middle__left {
+    padding-left:16px;
+    font-size:12px;
+}
+.footer-middle__right-item-heading {
+    font-size:15px;
+}
+.footer-middle__right-item2-content {
+    font-size:13px;
+}
+}
+/* Computer: width>1024px */
+@media only screen and (max-width:740px){
+    
+}
